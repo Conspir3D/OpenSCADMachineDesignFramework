@@ -27,6 +27,8 @@ module ${name}(complete=false) {
         complete  // show as complete?  i.e. last step!
         ) {
 
+        view();
+        
         // Most cut parts use a difference...
         difference() {
             step(1, "Start with a block of something") {
