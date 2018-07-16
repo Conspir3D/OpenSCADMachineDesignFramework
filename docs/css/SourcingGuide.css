@@ -25,9 +25,9 @@ p,td,div,li {
 /* Add HackSpace logo */
 #mdcontent:before {
     content: '';
-    background: url('https://rawgithub.com/snhack/documentation/master/publicity/assets/hackspace_logo.svg');
-    background-size: 60px 60px;
-    width:60px;
+    background: url('https://www.conspir3d.com/wp-content/uploads/2016/04/Conspir3D_Logo_300.png');
+    background-size: 200px 60px;
+    width:200px;
     height: 60px;
     display:block;
     position:fixed;

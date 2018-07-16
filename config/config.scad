@@ -38,7 +38,7 @@ UseVitaminSTL = true;
 VitaminSTL = "../framework/vitamins/stl/";
 
 $Explode  = false;
-$ShowStep = 100;
+$ShowStep = 128;
 
 $DefaultViewSize = [400, 300];
 

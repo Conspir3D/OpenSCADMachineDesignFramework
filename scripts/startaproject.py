@@ -87,7 +87,7 @@ def startaproject(proj_parent_path, proj_name):
 
     print("Setup framework submodule")
     with cd(os.path.join(proj_path, 'hardware')):
-        subprocess.call(['git', 'submodule', 'add', 'https://github.com/Axford/OpenSCADMachineDesignFramework.git', 'framework'])
+        subprocess.call(['git', 'submodule', 'add', 'https://github.com/Conspir3D/OpenSCADMachineDesignFramework.git', 'framework'])
         subprocess.call(['git', 'submodule', 'update', '--init', '--recursive'])
 
 
